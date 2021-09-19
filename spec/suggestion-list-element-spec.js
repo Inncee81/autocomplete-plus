@@ -6,7 +6,7 @@ const fragmentToHtml = fragment => {
   const el = document.createElement('span')
   el.appendChild(fragment.cloneNode(true))
   return el.innerHTML
-}
+}suggestionListElement
 
 describe('Suggestion List Element', () => {
   let [suggestionListElement] = []
